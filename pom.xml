@@ -74,10 +74,11 @@
 				<finalName>mlbparks</finalName>
 				<plugins>
 					<plugin>
-						<artifactId>maven-war-plugin</artifactId>
+						<groupId>org.apache.maven.plugins</groupId>
+                                                <artifactId>maven-war-plugin</artifactId>
 						<version>2.4</version>
 						<configuration>
-							<failOnMissingWebXml>false</failOnMissingWebXml>
+							<failOnMissingWebXml>true</failOnMissingWebXml>
 							<outputDirectory>deployments</outputDirectory>
 							<warName>ROOT</warName>
 						</configuration>

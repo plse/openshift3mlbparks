@@ -30,7 +30,7 @@
       {
          "description": "Git source URI for application",
          "name": "GIT_URI",
-         "value": "https://github.com/gshipley/openshift3mlbparks.git"
+         "value": "https://github.com/plse/openshift3mlbparks.git"
       },
       {
          "description": "Git branch/tag reference",
@@ -189,7 +189,7 @@
                   "type": "ConfigChange"
                }
             ],
-            "replicas": 1,
+            "replicas": 2,
             "selector": {
                "deploymentConfig": "${APPLICATION_NAME}-mongodb"
             },
