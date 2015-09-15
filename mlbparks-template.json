@@ -20,17 +20,17 @@
       {
          "description": "The name for the application.",
          "name": "APPLICATION_NAME",
-         "value": "mlbparks"
+         "value": "${APPLICATION_NAME}"
       },
       {
          "description": "Custom hostname for service routes.  Leave blank for default hostname, e.g.: <application-name>.<project>.<default-domain-suffix>",
          "name": "APPLICATION_HOSTNAME",
-         "value": ""
+         "value": "${HOST_NAME}"
       },
       {
          "description": "Git source URI for application",
          "name": "GIT_URI",
-         "value": "https://github.com/plse/openshift3mlbparks.git"
+         "value": "${GIT_URI}"
       },
       {
          "description": "Git branch/tag reference",
