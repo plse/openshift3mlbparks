@@ -119,7 +119,8 @@
                "git": {
                   "uri": "${GIT_URI}",
                   "ref": "${GIT_REF}"
-               }
+               },
+               "contextDir": "${CONTEXT_DIR}"
             },
             "strategy": {
                "type": "Source",
@@ -296,9 +297,6 @@
                         "name": "${APPLICATION_NAME}:latest"
                      }
                   }
-               },
-               {
-                  "type": "ConfigChange"
                }
             ],
             "replicas": 2,
